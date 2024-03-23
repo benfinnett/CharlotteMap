@@ -1,0 +1,24 @@
+{
+  "markers": [
+    {"lat": -87, "lng": 375, "text": "1", "color": "#f00"},
+    {"lat": -95, "lng": 384, "text": "2", "color": "#f00"},
+    {"lat": -53, "lng": 314, "title": "Train Station", "text": "This is the train station, where you can board your train!", "color": "#f00"},
+    {"lat": -71, "lng": 322, "text": "3", "color": "#f00"},
+    {"lat": -104, "lng": 348, "text": "7", "color": "#f00"},
+    {"lat": -71, "lng": 250, "text": "4", "color": "#fff200"},
+    {"lat": -115, "lng": 272, "text": "5", "color": "#fff200"},
+    {"lat": -115, "lng": 327, "text": "6", "color": "#fff200"},
+    {"lat": -111, "lng": 232, "text": "8", "color": "#fff200"},
+    {"lat": -80, "lng": 275, "text": "Main Building", "color": "#FFF200FF"},
+    {"lat": -113, "lng": 224, "text": "9", "color": "#032c98"},
+    {"lat": -121, "lng": 200, "text": "10", "color": "#032C98FF"},
+    {"lat": -98, "lng": 207, "text": "11", "color": "#032C98FF"},
+    {"lat": -107, "lng": 174, "text": "12", "color": "#032C98FF"},
+    {"lat": -120, "lng": 151, "text": "13", "color": "#032C98FF"},
+    {"lat": -118, "lng": 111, "text": "14", "color": "#a26ed3"},
+    {"lat": -198, "lng": 68, "text": "15", "color": "#a26ed3"},
+    {"lat": -163, "lng": 20, "text": "16", "color": "#a26ed3"},
+    {"lat": -29, "lng": 100, "text": "Bus Stop?", "color": "#a26ed3"},
+    {"lat": -125, "lng": 70, "text": "17", "color": "#a26ed3"}
+  ]
+}
