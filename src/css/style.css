@@ -19,3 +19,30 @@ body {
     color: #333;
     z-index: 1000;
 }
+
+.pin {
+    position: relative;
+}
+
+.pin-top {
+    position: absolute;
+    border-radius: 50%;
+    border-width: 8px;
+    border-style: solid;
+    width: 8px;
+    height: 8px;
+}
+
+.pin-bottom {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -45px;
+    left: 2px;
+    border: 10px solid transparent;
+}
+
+.pin-title {
+    text-align: center;
+    font-weight: bold;
+}

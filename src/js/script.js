@@ -1,26 +1,8 @@
 function createColoredMarkerIcon(color) {
-    const pin = `
-        position: absolute;
-        border-radius: 50%;
-        border: 8px solid ${color};
-        width: 8px;
-        height: 8px;
-    `;
-
-    const pinArrow = `
-        position: absolute;
-        width: 0;
-        height: 0;
-        bottom: -45px;
-        left: 2px; 
-        border: 10px solid transparent;
-        border-top: 17px solid ${color};
-    `;
-
     const markerHtml = `
-        <div style="position: relative;">
-            <div style="${pin}"></div>
-            <div style="${pinArrow}"></div>
+        <div class="pin">
+            <div class="pin-top" style="border-color: ${color}"></div>
+            <div class="pin-bottom" style="border-top: 17px solid ${color}"></div>
         </div>`;
 
     return L.divIcon({
@@ -32,8 +14,8 @@ function createColoredMarkerIcon(color) {
 }
 
 function addMarker(marker) {
-    const titleHTML = marker.title ? `<h1 style="text-align: center; font-weight: bold;">${marker.title}</h1>` : '';
-    const textHTML = marker.text ? `<div>${marker.text}</div>` : '';
+    const titleHTML = marker.title ? `<h1 class="pin-title">${marker.title}</h1>` : '';
+    const textHTML = marker.text ? `<p>${marker.text}</p>` : '';
 
     const popupContent = `${titleHTML}${textHTML}`;
 
@@ -51,7 +33,7 @@ function addMarker(marker) {
 const MAP_WIDTH = 6684 / 2,
     MAP_HEIGHT = 4004 / 2,
     MAP_URL = 'assets/map.webp',
-    DEFAULT_COLOR = '#032C98FF',
+    DEFAULT_COLOR = '#032C98',
     MAX_ZOOM = 4,
     MIN_ZOOM = 2,
     INITIAL_ZOOM = 1,
