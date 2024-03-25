@@ -2,7 +2,7 @@ function createColoredMarkerIcon(color) {
     const markerHtml = `
         <div class="pin">
             <div class="pin-top" style="border-color: ${color}"></div>
-            <div class="pin-bottom" style="border-top: 17px solid ${color}"></div>
+            <div class="pin-bottom" style="border-top-color: ${color}"></div>
         </div>`;
 
     return L.divIcon({
