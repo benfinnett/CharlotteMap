@@ -1,3 +1,8 @@
+//TODO - Add key
+//TODO - Place images on the right of the text. 
+//TODO - Write HTML for region zone and extend to include the updated map section
+//TODO - Replace map with updated version
+
 function createColoredMarkerIcon(color) {
     const markerHtml = `
         <div class="pin">
@@ -37,7 +42,7 @@ const MAP_WIDTH = 6684 / 2,
     MAX_ZOOM = 4,
     MIN_ZOOM = 2,
     INITIAL_ZOOM = 1,
-    DEBUG_MODE = false; // Set to true for debugging
+    DEBUG_MODE = true; // Set to true for debugging
 
 // Load map image and create map
 const map = L.map('map', {
@@ -70,8 +75,8 @@ const areaCoords = [
     [-111, 187],
     [-105, 187]
 ];
-const area = L.polygon(areaCoords, {color: DEFAULT_COLOR}).addTo(map);
-area.bindPopup('This is a colored region.');
+const area = L.polygon(areaCoords, {color: "#ab69e0"}).addTo(map);
+area.bindPopup('Craft: In this area I would expect to see lots of people demonstrating or participating in workshops. There may be sounds of machines and tools. This area could be quite loud if there are lots of people working. There may be smells such as wood and varnish.');
 area.on('click', () => map.fitBounds(area.getBounds()));
 
 // Load and place markers from JSON file
@@ -87,7 +92,7 @@ if (DEBUG_MODE) {
     map.on('click', function(e) {
         const lat = Math.round(e.latlng.lat);
         const lng = Math.round(e.latlng.lng);
-        const formattedText = `{lat: ${lat}, lng: ${lng}, title:'', text:'', color:''},`;
+        const formattedText = `{"lat": ${lat}, "lng": ${lng}, "title": "", "text": "", "color": ""},`;
         navigator.clipboard.writeText(formattedText).then(() => {
             console.log('Coordinates copied to clipboard:', formattedText);
         }).catch(err => {
