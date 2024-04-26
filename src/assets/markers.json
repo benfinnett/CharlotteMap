@@ -1,139 +1,140 @@
 {
   "markers": [
-    { "lat": -107, "lng": 174, "text": "UNDEFINED 1", "color": "#000" },
-    { "lat": -111, "lng": 232, "text": "UNDEFINED 2", "color": "#000" },
     {
       "lat": -114,
       "lng": 300,
-      "title": "Wheelwrites Shop",
+      "title": "Wheelwrites' Shop",
       "text": "In this workshop I might have the opportunity to build a wheel. Occasionally there may be the smell of paint but this is quite rare. There is a faint smell of wood and varnish as you enter the shop. There are also sound buttons that I can press telling me more about the history of how wheels were made.",
-      "color": "#e3cd3b"
+      "color": "#e13434"
     },
     {
       "lat": -87,
       "lng": 375,
-      "title": "Railway Hall",
+      "title": "Railway Exhibition Hall",
       "text": "In this exhibition there are lots of trains that had different uses, there is a children’s corner with several activities which contains a horn that can be pulled and makes a loud noise. There are also lots of artefacts and engines to explore. It’s relatively quiet if no one is pulling the horn.",
-      "color": "#e3cd3b"
+      "color": "#e13434"
     },
     {
       "lat": -95,
       "lng": 384,
-      "title": "Electricity",
+      "title": "Electricity Hall",
       "text": "In the Electricity Hall I will see lots of bright lights, machines, and buttons to interact with. I may find people doing demonstrations and there will be lots of different noises as I move around. Whenever I see a hand sign this means there is something I can interact with. There are also signs telling me not to touch certain items. I might find some mannequins as I move around this exhibit. This exhibit may make me jump:",
-      "color": "#eb4034"
+      "color": "#ea9312",
+      "image": "electricity-hall.jpg"
     },
     {
       "lat": -53,
       "lng": 314,
-      "title": "Railway",
+      "title": "Railway Station",
       "text": "As I go onto the station platform the conductor will say which seats I can or cannot sit on. There may be a slight rocking as I and others step onto the carriage. Once on the train I can feel the gently chugging as it waits to set off. The conductor will come around and hand out tickets giving a brief history of the rail line. As the train pulls away from the station the conductor will whistle and the train horn will sound. The train sets off smoothly and there is a lot of chugging and creaking noises. There is a smell of fuel throughout the journey. It can be quite bumpy but it is a delightful way to view the whole museum. There are two stops along the way and the conductor will share some more information at the Brockham stop. It might be quite an abrupt departure from Brockham station as the train makes its way to the final stop. Overall the journey can be quite clunky and rattly. The journey can take any time between 5-10 mins.",
-      "color": "#e3cd3b"
+      "color": "#e13434",
+      "image": "railway-station.jpg"
     },
     {
       "lat": -71,
       "lng": 322,
       "title": "Brick Drying Shed",
       "text": "I can wander through this build and look at the different bricks. I might need to watch out for low beams and narrow pathways. As it relies on natural light, it is quite dark and the brick floor may be slippery if it has rained recently. I should stick to the brick path.",
-      "color": "#eb4034"
+      "color": "#ea9312",
+      "image": "brick-shed.jpg"
     },
     {
       "lat": -104,
       "lng": 348,
-      "title": "Connected Earth",
+      "title": "BT Connected Earth",
       "text": "As I walk through the door I will see lots of different sections to this exhibition. In each section there are a few buttons that can be pressed. I might hear phones ringing or a clicking noise from the radio control area. This room is quite busy and bright in areas. I might experience low level talking from recordings. As I walk round the room I could experience things such as bells ringing if other visitors have interacted with the exhibitions.  I may see some mannequins as I walk around this exhibit.",
-      "color": "#3b92e3"
+      "color": "#6d84d1"
     },
     {
       "lat": -71,
       "lng": 250,
       "title": "Nature Trail",
       "text": "I might go here if I need some space away from the noise. I might hear some sounds from the road and wildlife around me. There are two nature trails one can be accessed from the DeWitt Kiln area or the craft zone and the other is near the Paviors Road making exhibit.",
-      "color": "#8c4d0a"
+      "color": "#aa641a",
+      "image": "nature-trail.jpg"
     },
     {
       "lat": -115,
       "lng": 272,
-      "title": "Bus Garage",
+      "title": "Southdown Bus Garage",
       "text": "As I enter the main garage there are several large buses that I can walk around. I cannot go on any of the buses. There is a smell of rubber and fuel in this garage (there may be a slight smell of chlorine in here too). On a cloudy day this exhibit may be quite dark. There are two possible entrances: one for buses and one for people!",
-      "color": "#e3cd3b"
+      "color": "#e13434"
     },
     {
       "lat": -115,
       "lng": 327,
       "title": "Municipal Engine House",
       "text": "There is a strong smell of fuel and oil as I enter this exhibit. On a nice day this exhibition is quite bright as there are large windows but the lights themselves are quite dim. Other than this the exhibit is quite quiet with some large machines to look at. ",
-      "color": "#e3cd3b"
+      "color": "#e13434"
     },
     {
-      "lat": -80,
-      "lng": 275,
-      "title": "Chalk Pits",
+      "lat": -88,
+      "lng": 256,
+      "title": "Life and Lime Exhibition",
       "text": "In here I will find cardboard cutouts of different people and there are some fun challenges I can have a go at. I can have my photo taken with a face in the hole board. This place is quite quiet and lowly lit and has some low beams. This exhibit is quite quiet although sounds may echo. I will see statues of people working inside and out of this exhibit. To get this exhibit I can either come down some steps and over a bridge that goes over an unused railway or along the path from the craft zone. ",
-      "color": "#eb4034"
+      "color": "#ea9312",
+      "image": "life-and-lime.jpg"
     },
     {
       "lat": -113,
       "lng": 224,
       "title": "The Fairmile Cafe",
       "text": "This building may not always be open but when it is, I can wander around and look at books and other interesting items that can be purchased. This building is quite small but has lots of fun things to look at!",
-      "color": "#e3cd3b"
+      "color": "#e13434"
     },
     {
       "lat": -121,
       "lng": 200,
       "title": "Fire Station",
       "text": "When I enter the fire station I would expect to see mannequins and lots of information signs. There are some different rooms that I can explore, one of them has a radio receiver which has low level spoken noise. There are a few different fire engines I can look at, but I cannot climb on them. On the fire engines I may spot some mannequins.",
-      "color": "#e3cd3b"
+      "color": "#e13434",
+      "image": "fire-station.jpg"
     },
     {
       "lat": -98,
       "lng": 207,
       "title": "The Wood Yard",
       "text": "In this area I might hear lots of saws and machines running. There might be the smell of sawdust and and there may be some dust in the air if wood has recently been chopped.",
-      "color": "#eb4034"
+      "color": "#ea9312"
     },
     {
       "lat": -118,
       "lng": 111,
       "title": "TV and Radio",
       "text": "As I enter this exhibition there is a ramp going down into the room. There is also a statue head looking at me as I walk in! I should look out for signs for what to look out for. This area is quite busy with lots of things to see and buttons people may press. Many of the areas in this exhibition are alarmed if you go too close to the exhibit.",
-      "color": "#3b92e3"
+      "color": "#6d84d1",
+      "image": "radio-shop.jpg"
     },
     {
       "lat": -198,
       "lng": 68,
       "title": "Paviors Museum of Roadmaking",
       "text": "When I enter I can hear a distant recording. I will see lots of cardboard cutouts and information as I make my way around this exhibition. It is quite lowly lit here. As I move around the exhibit there are lots of machines and bright signs. The floor tiles change as I go round. Before I exit there is an option to listen to Allan Pronger (a road maker), I can walk up a ladder to the trailer door and hear the voices clearer.",
-      "color": "#e3cd3b"
+      "color": "#e13434",
+      "image": "roadmaking.jpg"
     },
     {
       "lat": -163,
       "lng": 20,
       "title": "Entrance & Exit",
       "text": "To get to the museum I will have walked along a gravel path. This is the door I will enter through, I will have heard some road noise as I walked along the path from the car park. When I enter I will be in the gift shop, I will need to show my ticket to the person at the desk on the right. I will need to walk through the gift shop to start my visit around the museum. As I wander around the museum I may find that some exhibitions are in use but others are not. To exit the museum head back through the gift shop and out the way you came in, through the gift shop and out along the gravel path to the car park.",
-      "color": "#f075df"
+      "color": "#e23cb0",
+      "image": "entrance.jpg"
     },
     {
       "lat": -130,
       "lng": 109,
       "title": "Bus Stop",
       "text": "There is a sign near the bus stop that will tell me the time of the next bus. I can  get onto the bus once the conductor is on board. I will be handed a pinched ticket as I get on. When the engine starts there will be some vibrations and loud noises. As the bus pulls away there will be lots of chugging and a fumy smell. As the bus moves there will be lots of noise and the bus will go over several bumps in the road. The bus will stop a few times and the bus driver will call out the exhibits you can visit if you stop off here.",
-      "color": "#e3cd3b"
-    },
-    {
-      "lat": -125,
-      "lng": 70,
-      "title": "Print Shop Zone",
-      "text": "As I walk around this part of the museum I might hear a quiet whirring and get faint smells. There might be a few machines being operated showing how you they are used and some of the things they can create. This area includes the print shop, the ironmongers shop, the machine shop and the Road Steam and Stationary Engine shed. In the Road Steam and Stationary Engine shed, when some of the engines are being operated there might be the smell of smoke, the whirring is also louder here. In the print shop itself I may smell some oils and it is more brightly lit. In this area it is more likely that I’ll hear sounds from the road. Some of the machines here can be quite noisy but they aren’t always being operated.",
-      "color": "#eb4034"
+      "color": "#e13434",
+      "image": "bus-stop.jpg"
     },
     {
       "lat": -109,
       "lng": 283,
       "title": "Village Garage and Cycle Shop",
       "text": "If I go into this exhibition I may expect to smell some strong paint and petrol fumes as well as hearing volunteers working within the garages. There are lots of different style bicycles and tools to see.",
-      "color": "#e3cd3b"
+      "color": "#e13434"
     }
   ]
 }
