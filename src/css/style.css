@@ -3,7 +3,7 @@ body {
 }
 
 #map {
-    height: 98vh;
+    height: 97dvh;
     background-color: #A1CC67;
 }
 
@@ -15,7 +15,7 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
     font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-    font-size: 2vw;
+    font-size: clamp(10px, 2vw, 20px);
     color: #333;
     z-index: 1000;
 }
@@ -29,17 +29,18 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: clamp(10px, 2vw, 16px);
     z-index: 1000;
 }
 
 .key h3 {
     margin-top: 0;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
 
 .key p {
     margin-top: 2px;
-    margin-bottom: 2px; 
+    margin-bottom: 2px;
     line-height: 1.2;
 }
 
@@ -49,8 +50,6 @@ body {
     width: 10px;
     margin-right: 5px;
 }
-
-
 
 .pin {
     position: relative;
@@ -94,6 +93,6 @@ body {
 
 .pin-image {
     float: none;
-    margin-left: 10px; 
+    margin-left: 10px;
     max-width: 50%;
 }
